@@ -1,7 +1,9 @@
 package com.ing.zoo;
 
 /**
- * This class serves is a abstract class for all animals.
+ * This class serves as a abstract class for all animals.
+ *
+ * @author Elwin
  */
 public abstract class Animal {
     //I left the attributes public because the assignment was given this way. Normally I would make it private

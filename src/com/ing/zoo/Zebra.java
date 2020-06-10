@@ -2,11 +2,12 @@ package com.ing.zoo;
 
 import com.ing.zoo.Interfaces.Herbivore;
 
+/**
+ * This class used for zebras. They have a name, can say hello and eat leaves.
+ *
+ * @author ING, Elwin Schoofs
+ */
 public class Zebra extends Animal implements Herbivore {
-    public String name;
-    public String helloText;
-    public String eatText;
-    public String trick;
 
     /**
      * Constructor gives zebra a name

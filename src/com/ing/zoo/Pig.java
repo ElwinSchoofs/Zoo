@@ -6,10 +6,14 @@ import com.ing.zoo.Interfaces.Trickster;
 
 import java.util.Random;
 
+/**
+ * This class is used for pigs. They have a name, can say hello, eat leaves, eat meat and perform tricks.
+ *
+ * @author ING, Elwin Schoofs
+ */
 public class Pig extends Animal implements Herbivore, Carnivore, Trickster {
-    public String name;
-    public String helloText;
-    public String eatText;
+    //I left the attributes public because the assignment was given this way. Normally I would make it private
+    //and use getters and setters.
     public String trick;
 
     /**

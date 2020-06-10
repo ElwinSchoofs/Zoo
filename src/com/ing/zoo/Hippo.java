@@ -2,6 +2,11 @@ package com.ing.zoo;
 
 import com.ing.zoo.Interfaces.Herbivore;
 
+/**
+ * This class is used for hippos. They have a name, can say hello and eat leaves.
+ *
+ * @author ING, Elwin Schoofs
+ */
 public class Hippo extends Animal implements Herbivore {
     /**
      * Constructor gives hippo a name

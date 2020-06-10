@@ -2,11 +2,12 @@ package com.ing.zoo;
 
 import com.ing.zoo.Interfaces.Carnivore;
 
+/**
+ * This class is used for Lions. They have a name, can say hello and eat meat.
+ *
+ * @author ING, Elwin Schoofs
+ */
 public class Lion extends Animal implements Carnivore {
-    public String name;
-    public String helloText;
-    public String eatText;
-
     /**
      * Constructor gives lion a name
      *

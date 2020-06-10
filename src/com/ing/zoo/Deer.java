@@ -5,10 +5,14 @@ import com.ing.zoo.Interfaces.Trickster;
 
 import java.util.Random;
 
+/**
+ * This class is used for deers. They have a name, can say hello, eat leaves and perform tricks.
+ *
+ * @author Elwin Schoofs
+ */
 public class Deer extends Animal implements Herbivore, Trickster {
-    public String name;
-    public String helloText;
-    public String eatText;
+    //I left the attributes public because the assignment was given this way. Normally I would make it private
+    //and use getters and setters.
     public String trick;
 
     /**
